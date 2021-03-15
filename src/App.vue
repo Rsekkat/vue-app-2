@@ -36,11 +36,10 @@ export default {
       data: [],
       subtitle: "NOS SERVICES",
       navItems: [
-        { name: "test", href: "" },
-        { name: "Support", href: "" },
-        { name: "centrex", href: "" },
-        { name: "mobile", href: "" },
-        { name: "trunk", href: "" },
+        { name: "Covid", href: "" },
+        { name: "jeux vidéo", href: "" },
+        { name: "Monde", href: "" },
+        { name: "France", href: "" },
       ],
     };
   },

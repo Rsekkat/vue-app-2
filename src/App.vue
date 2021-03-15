@@ -1,5 +1,4 @@
 <template>
-  <Page>
     <Navbar :subtitle="subtitle">
       <template v-slot:content>
         <NavContent> </NavContent>
@@ -14,14 +13,13 @@
         </NavItem>
       </template>
     </Navbar>
-  </Page>
 </template>
 
 <script>
 import Navbar from "./components/navbar/navbar.vue";
 import NavItem from "./components/navItem/navItem.vue";
 import NavContent from "./components/navContent/navcontent.vue";
-import Page from "./components/page/page.vue";
+
 
 export default {
   name: "App",
@@ -29,7 +27,7 @@ export default {
     Navbar,
     NavItem,
     NavContent,
-    Page,
+
   },
   data() {
     return {
